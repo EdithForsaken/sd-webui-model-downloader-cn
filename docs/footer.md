@@ -1,7 +1,5 @@
-## 有问题请联系
+## Join Discord kita jika mengalami Kendala
 
-- Email：sd-model-downloader-cn@tzwm.me
-- GitHub: https://github.com/tzwm/sd-webui-model-downloader-cn
-- sd webui 微信交流讨论群：
+- Discord https://discord.gg/fg9kvMqUmD
+- GitHub: [Edith Forsaken](https://github.com/EdithForsaken/sd-webui-model-downloader-cn)
 
-![](https://oss.talesofai.cn/public/qrcode_20230413-183818.png?cc0429)
