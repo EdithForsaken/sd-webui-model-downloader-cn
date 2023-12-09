@@ -152,7 +152,7 @@ def download(model_type, filename, url, image_arr):
 
 def request_online_docs():
     banner = "## Gagal memuat, coba perbarui plugin：\nhttps://github.com/EdithForsaken/sd-webui-model-downloader-cn"
-    footer = "## Kelompok-kelompok gotong royong\n![](https://oss.talesofai.cn/public/qrcode_20230413-183818.png?cc0429)"
+    footer = "## Link Discord\n![](https://i.ibb.co/pwKsh1t/image-1.png)"
 
     try:
         res = requests.get(ONLINE_DOCS_URL + "banner.md")
@@ -203,7 +203,7 @@ def on_ui_tabs():
                             show_label=False,
                             interactive=False,
                         )
-                with gr.Accordion("hadiah (sb untuk pekerjaan, dll.)", open=False):
+                with gr.Accordion("Deskripsi", open=False):
                     description = gr.HTML()
         with gr.Row(visible=False):
             filename = gr.Textbox(
