@@ -151,8 +151,8 @@ def download(model_type, filename, url, image_arr):
 
 
 def request_online_docs():
-    banner = "## 加载失败，可以更新插件试试：\nhttps://github.com/tzwm/sd-webui-model-downloader-cn"
-    footer = "## 交流互助群\n![](https://oss.talesofai.cn/public/qrcode_20230413-183818.png?cc0429)"
+    banner = "## Gagal memuat, coba perbarui plugin：\nhttps://github.com/EdithForsaken/sd-webui-model-downloader-cn"
+    footer = "## Kelompok-kelompok gotong royong\n![](https://oss.talesofai.cn/public/qrcode_20230413-183818.png?cc0429)"
 
     try:
         res = requests.get(ONLINE_DOCS_URL + "banner.md")
@@ -163,7 +163,7 @@ def request_online_docs():
         if res.ok:
             footer = res.text
     except Exception as e:
-        print("sd-webui-model-downloader-cn 文档请求失败")
+        print("sd-webui-model-downloader-cn Permintaan dokumen gagal")
 
     return banner, footer
 
