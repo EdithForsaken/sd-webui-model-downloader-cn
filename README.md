@@ -1,66 +1,65 @@
 ## sd-webui-model-downloader-cn
+> **DOWNLOAD**
+> Presentasi video: https://www.bilibili.com/video/BV11u411a7wB/
 
-> 视频演示: https://www.bilibili.com/video/BV11u411a7wB/
-
-- 国内免梯子高速下载 civitai 模型
-- 一键下载，自动识别模型类型、自动选择下载路径
-- 支持 Checkpoint、LoRA、LyCORIS、VAE、TextualInversion(embedding)、Hypernetwork
-- 支持模型图片预览，并且自动下载模型图片到模型同目录下
+- Model civitai pengunduhan berkecepatan tinggi tanpa tangga dalam negeri
+- Pengunduhan sekali klik, pengenalan otomatis jenis model, pemilihan jalur pengunduhan otomatis
+- pembantuCheckpoint、LoRA、LyCORIS、VAE、TextualInversion(embedding)、Hypernetwork
+- Mendukung pratinjau gambar model dan secara otomatis mengunduh gambar model ke direktori yang sama dengan model
 
 ![](https://files.tzwm.me/images/sd-webui-model-downloader-cn/preview.png)
 
 
-## 安装方式
+## Instalasi
 
-### 直接通过 webui 安装（推荐）
+### Instalasi langsung melalui webui (disarankan)
 
 ![](https://files.tzwm.me/images/sd-webui-model-downloader-cn/extension_install.png)
 
 
-### 下载安装
+### unduh dan pasang
 
-1. 下载这个仓库所有文件
-2. 解压后把整个文件夹扔进 webui 目录下的 extensions 目录下
-3. 重启 webui
+1. Unduh semua file dari repositori ini
+2. Buka ritsletingnya dan lemparkan seluruh folder ke dalam direktori ekstensi di direktori webui.
+3. Memulai ulang webui
 
-### 命令行安装
+###Penginstalan baris perintah
 
-1. 通过命令行进入 webui 的文件夹
-2. 执行
+1. Buka folder webui dari baris perintah
+2. Implementasi
 
 ```
 cd extensions && git clone --depth 1 https://github.com/tzwm/sd-webui-model-downloader-cn.git
 ```
 
-3. 重启 webui
+3.  重启 webui
 
-## 使用
+## memanfaatkan
 
-### 下载不同版本的模型
+### Unduh berbagai versi model yang berbeda
 
 ![](https://files.tzwm.me/images/sd-webui-model-downloader-cn/banner_url_tips.png)
 
 ## TODO
 
-- [ ] 下载进度显示
-- [x] 预览更多模型信息，包括图片等
-- [ ] 模型推荐
-- [ ] 下载 LoRA 后自动生成一个 wildcard 文件包含触发词，方便后续一键触发不用到处找触发词
+- [ ] Tampilan kemajuan pengunduhan
+- [x] Mempratinjau informasi lebih lanjut tentang model, termasuk gambar, dll.
+- [ ] Rekomendasi Model
+- [ ] Setelah mengunduh LoRA, sebuah file wildcard secara otomatis dibuat yang berisi kata-kata pemicu, yang memudahkan pemicu sekali klik berikutnya untuk diaktifkan tanpa harus mencari kata-kata pemicu di mana-mana.
 
-## 交流互助
+##Pertukaran bantuan timbal balik
 
-- Email：sd-model-downloader-cn@tzwm.me
-- sd webui 微信交流讨论群：
+- Discord : https://discord.gg/fg9kvMqUmD
 
-![](https://oss.talesofai.cn/public/qrcode_20230413-183818.png?cc0429)
+![]([https://oss.talesofai.cn/public/qrcode_20230413-183818.png?cc0429](https://i.ibb.co/pwKsh1t/image-1.png))
 
 ## ChangeLog
 
 - v1.1.3 20230629
-  - 修复了一下输入错误的地址的报错问题
+  - Memperbaiki sedikit kesalahan saat memasukkan alamat yang salah.
 - v1.1.0 20230624
-  - 增加了模型图片预览，并且自动下载模型图片到模型同目录下
+  - Menambahkan pratinjau gambar model, dan secara otomatis mengunduh gambar model ke direktori yang sama dengan model.
 - v1.0.1 20230621
-  - 尝试修复某些平台 util.py 文件加载不出来的问题
+  - Mencoba memperbaiki masalah di mana file util.py tidak dapat dimuat pada beberapa platform.
 - v1.0.0 20230621
-  - 基本的免梯子全自动下载功能实现
+  - Implementasi pengunduhan otomatis bebas tangga dasar
