@@ -33,8 +33,8 @@ def get_model_path(model_type):
     co = shared.cmd_opts
     pj = os.path.join
     MODEL_TYPE_DIR = {
-        "Checkpoint": ["ckpt_dir", pj(models_path, 'Stable-diffusion')],
-        "LORA": ["lora_dir", pj(models_path, 'Lora')],
+        "Checkpoint": ["ckpt_dir", pj(models_path, 'Stable-diffusion', 'tmp_models')],
+        "LORA": ["lora_dir", pj(models_path, 'Lora', 'tmp_Lora')],
         "TextualInversion": ["embeddings_dir", pj(data_path, 'embeddings')],
         "Hypernetwork": ["hypernetwork_dir", pj(models_path, 'hypernetworks')],
         # "AestheticGradient": "",
