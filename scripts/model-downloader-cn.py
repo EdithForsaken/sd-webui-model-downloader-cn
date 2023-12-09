@@ -158,7 +158,7 @@ def on_ui_tabs():
             with gr.Column():
                 inp_url = gr.Textbox(
                     label="Alamat halaman model Civitai, bukan tautan unduhan.",
-                    placeholder="sebanding https://civitai.com/models/28687/pen-sketch-style"
+                    placeholder="Contoh https://civitai.com/models/123668/cavryv2"
                 )
                 with gr.Row():
                     preview_btn = gr.Button("pratinjau")
@@ -173,11 +173,11 @@ def on_ui_tabs():
             with gr.Column() as preview_component:
                 with gr.Row():
                     with gr.Column() as model_info_component:
-                        name = gr.Textbox(label="nama", interactive=False)
-                        model_type = gr.Textbox(label="tipologi", interactive=False)
+                        name = gr.Textbox(label="Nama", interactive=False)
+                        model_type = gr.Textbox(label="Jenis", interactive=False)
                         trained_words = gr.Textbox(label="kata pemicu", interactive=False)
-                        creator = gr.Textbox(label="penulis", interactive=False)
-                        tags = gr.Textbox(label="tab (dari jendela) (komputasi)", interactive=False)
+                        creator = gr.Textbox(label="pembuat", interactive=False)
+                        tags = gr.Textbox(label="Tag", interactive=False)
                         updated_at = gr.Textbox(label="Terakhir diperbarui", interactive=False)
                     with gr.Column() as model_image_component:
                         image = gr.Image(
