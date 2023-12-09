@@ -149,25 +149,6 @@ def download(model_type, filename, url, image_arr):
 
     return status_output
 
-
-def request_online_docs():
-    banner = "## Gagal memuat, coba perbarui plugin：\nhttps://github.com/EdithForsaken/sd-webui-model-downloader-cn"
-    footer = "## Link Discord\n![](https://i.ibb.co/pwKsh1t/image-1.png)"
-
-    try:
-        res = requests.get(ONLINE_DOCS_URL + "banner.md")
-        if res.ok:
-            banner = res.text
-
-        res = requests.get(ONLINE_DOCS_URL + "footer.md")
-        if res.ok:
-            footer = res.text
-    except Exception as e:
-        print("sd-webui-model-downloader-cn Permintaan dokumen gagal")
-
-    return banner, footer
-
-
 def on_ui_tabs():
     banner, footer = request_online_docs()
 
