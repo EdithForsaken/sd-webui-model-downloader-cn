@@ -40,7 +40,7 @@ def get_model_path(model_type):
         # "AestheticGradient": "",
         # "Controlnet": "", #controlnet-dir
         "LoCon": ["lyco_dir", pj(models_path, 'LyCORIS')],
-        "VAE": ["vae_dir", pj(models_path, 'VAE')],
+        "VAE": ["vae_dir", pj(models_path, 'Lora', 'tmp_Lora')],
     }
 
     dir_list = MODEL_TYPE_DIR.get(model_type)
