@@ -1,7 +1,5 @@
 ## sd-webui-model-downloader-cn
 > **DOWNLOAD**
-> Presentasi video: https://www.bilibili.com/video/BV11u411a7wB/
-
 - Model civitai pengunduhan berkecepatan tinggi tanpa tangga dalam negeri
 - Pengunduhan sekali klik, pengenalan otomatis jenis model, pemilihan jalur pengunduhan otomatis
 - pembantuCheckpoint、LoRA、LyCORIS、VAE、TextualInversion(embedding)、Hypernetwork
@@ -49,7 +47,6 @@ cd extensions && git clone --depth 1 https://github.com/tzwm/sd-webui-model-down
 
 ##Pertukaran bantuan timbal balik
 
-- Discord : https://discord.gg/fg9kvMqUmD
 
 ![]([https://oss.talesofai.cn/public/qrcode_20230413-183818.png?cc0429](https://i.ibb.co/pwKsh1t/image-1.png))
 
